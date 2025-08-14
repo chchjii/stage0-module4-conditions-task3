@@ -5,7 +5,7 @@ public class AlphabeticCharacters {
         if (character == 65 || character == 69 || character == 73 || character == 79 || character == 85 || character == 89 || character == 97 || character == 101 || character == 105 || character == 111 || character == 117 || character == 121) {
             System.out.println("Vowel");
         } else if (character < 65 || character > 122) {
-            System.out.println("wrong alphabet");
+            System.out.println("wrong alphabet!");
         } else {
             System.out.println("Consonant");
         }
